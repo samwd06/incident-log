@@ -1,0 +1,26 @@
+```gitignore
+# Secrets
+.env
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# Node
+node_modules/
+dist/
+
+# Editors / OS
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Obsidian personal settings and private notes
+docs/.obsidian/workspace*.json
+docs/_private/
+```
